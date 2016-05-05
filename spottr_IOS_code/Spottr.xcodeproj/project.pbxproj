@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0C0CFC1CD5DADB00F94ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0C0CFB1CD5DADB00F94ABC /* AppDelegate.swift */; };
+		EC0C0CFE1CD5DADB00F94ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0C0CFD1CD5DADB00F94ABC /* ViewController.swift */; };
+		EC0C0D011CD5DADB00F94ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0C0CFF1CD5DADB00F94ABC /* Main.storyboard */; };
+		EC0C0D031CD5DADB00F94ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0C0D021CD5DADB00F94ABC /* Assets.xcassets */; };
+		EC0C0D061CD5DADB00F94ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0C0D041CD5DADB00F94ABC /* LaunchScreen.storyboard */; };
+		EC0C0D111CD5DADB00F94ABC /* Spottr4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0C0D101CD5DADB00F94ABC /* Spottr4Tests.swift */; };
+		EC0C0D1C1CD5DADB00F94ABC /* Spottr4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0C0D1B1CD5DADB00F94ABC /* Spottr4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC0C0D0D1CD5DADB00F94ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0C0CF01CD5DADB00F94ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0C0CF71CD5DADB00F94ABC;
+			remoteInfo = Spottr4;
+		};
+		EC0C0D181CD5DADB00F94ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC0C0CF01CD5DADB00F94ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC0C0CF71CD5DADB00F94ABC;
+			remoteInfo = Spottr4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC0C0CF81CD5DADB00F94ABC /* Spottr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spottr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0C0CFB1CD5DADB00F94ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC0C0CFD1CD5DADB00F94ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC0C0D001CD5DADB00F94ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0C0D021CD5DADB00F94ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0C0D051CD5DADB00F94ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0C0D071CD5DADB00F94ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0C0D0C1CD5DADB00F94ABC /* Spottr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spottr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0C0D101CD5DADB00F94ABC /* Spottr4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spottr4Tests.swift; sourceTree = "<group>"; };
+		EC0C0D121CD5DADB00F94ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0C0D171CD5DADB00F94ABC /* Spottr.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spottr.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0C0D1B1CD5DADB00F94ABC /* Spottr4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spottr4UITests.swift; sourceTree = "<group>"; };
+		EC0C0D1D1CD5DADB00F94ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0C0CF51CD5DADB00F94ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C0D091CD5DADB00F94ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C0D141CD5DADB00F94ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0C0CEF1CD5DADB00F94ABC = {
+			isa = PBXGroup;
+			children = (
+				EC0C0CFA1CD5DADB00F94ABC /* Spottr4 */,
+				EC0C0D0F1CD5DADB00F94ABC /* Spottr4Tests */,
+				EC0C0D1A1CD5DADB00F94ABC /* Spottr4UITests */,
+				EC0C0CF91CD5DADB00F94ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0C0CF91CD5DADB00F94ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C0CF81CD5DADB00F94ABC /* Spottr.app */,
+				EC0C0D0C1CD5DADB00F94ABC /* Spottr.xctest */,
+				EC0C0D171CD5DADB00F94ABC /* Spottr.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0C0CFA1CD5DADB00F94ABC /* Spottr4 */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C0CFB1CD5DADB00F94ABC /* AppDelegate.swift */,
+				EC0C0CFD1CD5DADB00F94ABC /* ViewController.swift */,
+				EC0C0CFF1CD5DADB00F94ABC /* Main.storyboard */,
+				EC0C0D021CD5DADB00F94ABC /* Assets.xcassets */,
+				EC0C0D041CD5DADB00F94ABC /* LaunchScreen.storyboard */,
+				EC0C0D071CD5DADB00F94ABC /* Info.plist */,
+			);
+			path = Spottr4;
+			sourceTree = "<group>";
+		};
+		EC0C0D0F1CD5DADB00F94ABC /* Spottr4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C0D101CD5DADB00F94ABC /* Spottr4Tests.swift */,
+				EC0C0D121CD5DADB00F94ABC /* Info.plist */,
+			);
+			path = Spottr4Tests;
+			sourceTree = "<group>";
+		};
+		EC0C0D1A1CD5DADB00F94ABC /* Spottr4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC0C0D1B1CD5DADB00F94ABC /* Spottr4UITests.swift */,
+				EC0C0D1D1CD5DADB00F94ABC /* Info.plist */,
+			);
+			path = Spottr4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0C0CF71CD5DADB00F94ABC /* Spottr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0C0D201CD5DADB00F94ABC /* Build configuration list for PBXNativeTarget "Spottr" */;
+			buildPhases = (
+				EC0C0CF41CD5DADB00F94ABC /* Sources */,
+				EC0C0CF51CD5DADB00F94ABC /* Frameworks */,
+				EC0C0CF61CD5DADB00F94ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spottr;
+			productName = Spottr4;
+			productReference = EC0C0CF81CD5DADB00F94ABC /* Spottr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC0C0D0B1CD5DADB00F94ABC /* SpottrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0C0D231CD5DADB00F94ABC /* Build configuration list for PBXNativeTarget "SpottrTests" */;
+			buildPhases = (
+				EC0C0D081CD5DADB00F94ABC /* Sources */,
+				EC0C0D091CD5DADB00F94ABC /* Frameworks */,
+				EC0C0D0A1CD5DADB00F94ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0C0D0E1CD5DADB00F94ABC /* PBXTargetDependency */,
+			);
+			name = SpottrTests;
+			productName = Spottr4Tests;
+			productReference = EC0C0D0C1CD5DADB00F94ABC /* Spottr.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC0C0D161CD5DADB00F94ABC /* SpottrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0C0D261CD5DADB00F94ABC /* Build configuration list for PBXNativeTarget "SpottrUITests" */;
+			buildPhases = (
+				EC0C0D131CD5DADB00F94ABC /* Sources */,
+				EC0C0D141CD5DADB00F94ABC /* Frameworks */,
+				EC0C0D151CD5DADB00F94ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0C0D191CD5DADB00F94ABC /* PBXTargetDependency */,
+			);
+			name = SpottrUITests;
+			productName = Spottr4UITests;
+			productReference = EC0C0D171CD5DADB00F94ABC /* Spottr.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0C0CF01CD5DADB00F94ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Soohee Han";
+				TargetAttributes = {
+					EC0C0CF71CD5DADB00F94ABC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC0C0D0B1CD5DADB00F94ABC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC0C0CF71CD5DADB00F94ABC;
+					};
+					EC0C0D161CD5DADB00F94ABC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC0C0CF71CD5DADB00F94ABC;
+					};
+				};
+			};
+			buildConfigurationList = EC0C0CF31CD5DADB00F94ABC /* Build configuration list for PBXProject "Spottr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0C0CEF1CD5DADB00F94ABC;
+			productRefGroup = EC0C0CF91CD5DADB00F94ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0C0CF71CD5DADB00F94ABC /* Spottr */,
+				EC0C0D0B1CD5DADB00F94ABC /* SpottrTests */,
+				EC0C0D161CD5DADB00F94ABC /* SpottrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0C0CF61CD5DADB00F94ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0C0D061CD5DADB00F94ABC /* LaunchScreen.storyboard in Resources */,
+				EC0C0D031CD5DADB00F94ABC /* Assets.xcassets in Resources */,
+				EC0C0D011CD5DADB00F94ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C0D0A1CD5DADB00F94ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C0D151CD5DADB00F94ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0C0CF41CD5DADB00F94ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0C0CFE1CD5DADB00F94ABC /* ViewController.swift in Sources */,
+				EC0C0CFC1CD5DADB00F94ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C0D081CD5DADB00F94ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0C0D111CD5DADB00F94ABC /* Spottr4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0C0D131CD5DADB00F94ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0C0D1C1CD5DADB00F94ABC /* Spottr4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC0C0D0E1CD5DADB00F94ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0C0CF71CD5DADB00F94ABC /* Spottr */;
+			targetProxy = EC0C0D0D1CD5DADB00F94ABC /* PBXContainerItemProxy */;
+		};
+		EC0C0D191CD5DADB00F94ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC0C0CF71CD5DADB00F94ABC /* Spottr */;
+			targetProxy = EC0C0D181CD5DADB00F94ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC0C0CFF1CD5DADB00F94ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0C0D001CD5DADB00F94ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0C0D041CD5DADB00F94ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0C0D051CD5DADB00F94ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0C0D1E1CD5DADB00F94ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC0C0D1F1CD5DADB00F94ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0C0D211CD5DADB00F94ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spottr4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotter.Spottr4;
+				PRODUCT_NAME = Spottr;
+			};
+			name = Debug;
+		};
+		EC0C0D221CD5DADB00F94ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spottr4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotter.Spottr4;
+				PRODUCT_NAME = Spottr;
+			};
+			name = Release;
+		};
+		EC0C0D241CD5DADB00F94ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Spottr4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotter.Spottr4Tests;
+				PRODUCT_NAME = Spottr;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spottr.app/Spottr";
+			};
+			name = Debug;
+		};
+		EC0C0D251CD5DADB00F94ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Spottr4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotter.Spottr4Tests;
+				PRODUCT_NAME = Spottr;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spottr.app/Spottr";
+			};
+			name = Release;
+		};
+		EC0C0D271CD5DADB00F94ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Spottr4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotter.Spottr4UITests;
+				PRODUCT_NAME = Spottr;
+				TEST_TARGET_NAME = Spottr4;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC0C0D281CD5DADB00F94ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Spottr4UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Spotter.Spottr4UITests;
+				PRODUCT_NAME = Spottr;
+				TEST_TARGET_NAME = Spottr4;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0C0CF31CD5DADB00F94ABC /* Build configuration list for PBXProject "Spottr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0C0D1E1CD5DADB00F94ABC /* Debug */,
+				EC0C0D1F1CD5DADB00F94ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0C0D201CD5DADB00F94ABC /* Build configuration list for PBXNativeTarget "Spottr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0C0D211CD5DADB00F94ABC /* Debug */,
+				EC0C0D221CD5DADB00F94ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0C0D231CD5DADB00F94ABC /* Build configuration list for PBXNativeTarget "SpottrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0C0D241CD5DADB00F94ABC /* Debug */,
+				EC0C0D251CD5DADB00F94ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0C0D261CD5DADB00F94ABC /* Build configuration list for PBXNativeTarget "SpottrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0C0D271CD5DADB00F94ABC /* Debug */,
+				EC0C0D281CD5DADB00F94ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0C0CF01CD5DADB00F94ABC /* Project object */;
+}
